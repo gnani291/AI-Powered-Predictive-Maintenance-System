@@ -1,0 +1,538 @@
+{
+  "classifier_global_importance": {
+    "sensor_11_rollmean": 0.752,
+    "sensor_10_rollmean": 0.6503,
+    "sensor_12_rollmean": 0.6381,
+    "sensor_5_rollmean": 0.596,
+    "sensor_7_rollmean": 0.596,
+    "sensor_2_rollmean": 0.593,
+    "sensor_4_rollmean": 0.5916,
+    "sensor_12": 0.4816,
+    "sensor_1_rollmean": 0.4685,
+    "sensor_13_rollmean": 0.4469,
+    "sensor_20_rollmean": 0.4021,
+    "sensor_18": 0.3563,
+    "sensor_17_rollmean": 0.3116,
+    "sensor_20": 0.3101,
+    "sensor_15": 0.2927
+  },
+  "regressor_global_importance": {
+    "sensor_11": 0.389,
+    "sensor_12": 0.1225,
+    "sensor_13": 0.0646,
+    "sensor_20": 0.0434,
+    "sensor_13_rollmean": 0.0359,
+    "sensor_4_rollmean": 0.0227,
+    "sensor_3": 0.0221,
+    "sensor_7_rollmean": 0.0213,
+    "sensor_2": 0.0167,
+    "sensor_2_rollmean": 0.0166,
+    "sensor_3_rollmean": 0.0159,
+    "sensor_19_rollmean": 0.0151,
+    "sensor_20_rollmean": 0.0145,
+    "sensor_8_rollmean": 0.0138,
+    "sensor_5_rollmean": 0.0129
+  },
+  "per_engine_explanations": [
+    {
+      "unit_id": 26,
+      "top_factors": [
+        {
+          "feature": "sensor_11_rollmean",
+          "impact": 2.8112
+        },
+        {
+          "feature": "sensor_10_rollmean",
+          "impact": -1.3358
+        },
+        {
+          "feature": "sensor_2_rollmean",
+          "impact": 1.2301
+        },
+        {
+          "feature": "sensor_20_rollmean",
+          "impact": 1.1581
+        },
+        {
+          "feature": "sensor_12_rollmean",
+          "impact": 0.9888
+        }
+      ]
+    },
+    {
+      "unit_id": 72,
+      "top_factors": [
+        {
+          "feature": "sensor_11_rollmean",
+          "impact": 2.9807
+        },
+        {
+          "feature": "sensor_20_rollmean",
+          "impact": 1.79
+        },
+        {
+          "feature": "sensor_10_rollmean",
+          "impact": -1.4817
+        },
+        {
+          "feature": "sensor_20",
+          "impact": 1.4267
+        },
+        {
+          "feature": "sensor_7_rollmean",
+          "impact": 1.2517
+        }
+      ]
+    },
+    {
+      "unit_id": 93,
+      "top_factors": [
+        {
+          "feature": "sensor_10_rollmean",
+          "impact": -1.4903
+        },
+        {
+          "feature": "sensor_4_rollmean",
+          "impact": 1.4429
+        },
+        {
+          "feature": "sensor_12_rollmean",
+          "impact": 1.1949
+        },
+        {
+          "feature": "sensor_11_rollmean",
+          "impact": 0.9973
+        },
+        {
+          "feature": "sensor_3_rollmean",
+          "impact": 0.9546
+        }
+      ]
+    },
+    {
+      "unit_id": 62,
+      "top_factors": [
+        {
+          "feature": "sensor_2_rollmean",
+          "impact": 1.5884
+        },
+        {
+          "feature": "sensor_12_rollmean",
+          "impact": 1.1109
+        },
+        {
+          "feature": "sensor_7_rollmean",
+          "impact": 0.97
+        },
+        {
+          "feature": "sensor_20_rollslope",
+          "impact": 0.8934
+        },
+        {
+          "feature": "sensor_12",
+          "impact": 0.8874
+        }
+      ]
+    },
+    {
+      "unit_id": 19,
+      "top_factors": [
+        {
+          "feature": "sensor_11_rollmean",
+          "impact": 2.679
+        },
+        {
+          "feature": "sensor_13_rollmean",
+          "impact": 1.2169
+        },
+        {
+          "feature": "sensor_4_rollmean",
+          "impact": 1.1507
+        },
+        {
+          "feature": "sensor_20_rollmean",
+          "impact": 1.0281
+        },
+        {
+          "feature": "sensor_1_rollmean",
+          "impact": -0.9877
+        }
+      ]
+    },
+    {
+      "unit_id": 25,
+      "top_factors": [
+        {
+          "feature": "sensor_11_rollmean",
+          "impact": 2.2146
+        },
+        {
+          "feature": "sensor_1_rollmean",
+          "impact": 1.4635
+        },
+        {
+          "feature": "sensor_4_rollmean",
+          "impact": 1.1543
+        },
+        {
+          "feature": "sensor_20_rollmean",
+          "impact": 0.9338
+        },
+        {
+          "feature": "sensor_3_rollmean",
+          "impact": 0.9027
+        }
+      ]
+    },
+    {
+      "unit_id": 53,
+      "top_factors": [
+        {
+          "feature": "sensor_11_rollmean",
+          "impact": 1.6906
+        },
+        {
+          "feature": "sensor_20_rollmean",
+          "impact": 1.6252
+        },
+        {
+          "feature": "sensor_12_rollmean",
+          "impact": 1.5787
+        },
+        {
+          "feature": "sensor_13_rollmean",
+          "impact": 1.526
+        },
+        {
+          "feature": "sensor_12",
+          "impact": 1.2123
+        }
+      ]
+    },
+    {
+      "unit_id": 98,
+      "top_factors": [
+        {
+          "feature": "sensor_12_rollmean",
+          "impact": 1.9986
+        },
+        {
+          "feature": "sensor_12",
+          "impact": 1.6302
+        },
+        {
+          "feature": "sensor_2_rollmean",
+          "impact": 1.5905
+        },
+        {
+          "feature": "sensor_20_rollmean",
+          "impact": 1.1997
+        },
+        {
+          "feature": "sensor_10_rollmean",
+          "impact": -1.1465
+        }
+      ]
+    },
+    {
+      "unit_id": 57,
+      "top_factors": [
+        {
+          "feature": "sensor_11_rollmean",
+          "impact": 1.7055
+        },
+        {
+          "feature": "sensor_13_rollmean",
+          "impact": 1.5078
+        },
+        {
+          "feature": "sensor_20_rollmean",
+          "impact": 1.1096
+        },
+        {
+          "feature": "sensor_12_rollslope",
+          "impact": 0.9462
+        },
+        {
+          "feature": "sensor_15",
+          "impact": 0.8264
+        }
+      ]
+    },
+    {
+      "unit_id": 82,
+      "top_factors": [
+        {
+          "feature": "sensor_11_rollmean",
+          "impact": 1.6964
+        },
+        {
+          "feature": "sensor_2_rollmean",
+          "impact": 1.129
+        },
+        {
+          "feature": "sensor_10_rollmean",
+          "impact": 0.911
+        },
+        {
+          "feature": "sensor_3_rollmean",
+          "impact": 0.8044
+        },
+        {
+          "feature": "sensor_3",
+          "impact": 0.7121
+        }
+      ]
+    },
+    {
+      "unit_id": 100,
+      "top_factors": [
+        {
+          "feature": "sensor_12_rollmean",
+          "impact": 1.7763
+        },
+        {
+          "feature": "sensor_12",
+          "impact": 1.3104
+        },
+        {
+          "feature": "sensor_11_rollmean",
+          "impact": 1.2592
+        },
+        {
+          "feature": "sensor_5_rollmean",
+          "impact": -1.0015
+        },
+        {
+          "feature": "sensor_20_rollmean",
+          "impact": 0.9409
+        }
+      ]
+    },
+    {
+      "unit_id": 52,
+      "top_factors": [
+        {
+          "feature": "sensor_2_rollmean",
+          "impact": 1.7831
+        },
+        {
+          "feature": "sensor_11_rollmean",
+          "impact": 1.1489
+        },
+        {
+          "feature": "sensor_20_rollmean",
+          "impact": 0.9615
+        },
+        {
+          "feature": "sensor_12_rollmean",
+          "impact": 0.6701
+        },
+        {
+          "feature": "sensor_20",
+          "impact": 0.6014
+        }
+      ]
+    },
+    {
+      "unit_id": 60,
+      "top_factors": [
+        {
+          "feature": "sensor_7_rollmean",
+          "impact": 1.1339
+        },
+        {
+          "feature": "sensor_4_rollmean",
+          "impact": 1.1245
+        },
+        {
+          "feature": "sensor_11_rollmean",
+          "impact": 1.0349
+        },
+        {
+          "feature": "sensor_12_rollmean",
+          "impact": 0.9653
+        },
+        {
+          "feature": "sensor_13_rollmean",
+          "impact": 0.9207
+        }
+      ]
+    },
+    {
+      "unit_id": 3,
+      "top_factors": [
+        {
+          "feature": "sensor_7_rollmean",
+          "impact": 1.6002
+        },
+        {
+          "feature": "sensor_4_rollmean",
+          "impact": 1.4077
+        },
+        {
+          "feature": "sensor_11_rollmean",
+          "impact": 1.3305
+        },
+        {
+          "feature": "sensor_5_rollmean",
+          "impact": 0.9637
+        },
+        {
+          "feature": "sensor_13_rollmean",
+          "impact": 0.9439
+        }
+      ]
+    },
+    {
+      "unit_id": 28,
+      "top_factors": [
+        {
+          "feature": "sensor_12_rollmean",
+          "impact": 1.7243
+        },
+        {
+          "feature": "sensor_12",
+          "impact": 1.284
+        },
+        {
+          "feature": "sensor_7_rollmean",
+          "impact": 1.1615
+        },
+        {
+          "feature": "sensor_3_rollmean",
+          "impact": 0.9732
+        },
+        {
+          "feature": "sensor_17_rollmean",
+          "impact": 0.8432
+        }
+      ]
+    },
+    {
+      "unit_id": 34,
+      "top_factors": [
+        {
+          "feature": "sensor_12_rollmean",
+          "impact": 1.7185
+        },
+        {
+          "feature": "sensor_13_rollmean",
+          "impact": 1.5287
+        },
+        {
+          "feature": "sensor_12",
+          "impact": 1.3499
+        },
+        {
+          "feature": "sensor_20_rollmean",
+          "impact": 1.2742
+        },
+        {
+          "feature": "sensor_11_rollmean",
+          "impact": 1.2387
+        }
+      ]
+    },
+    {
+      "unit_id": 43,
+      "top_factors": [
+        {
+          "feature": "sensor_11_rollmean",
+          "impact": 2.9826
+        },
+        {
+          "feature": "sensor_12_rollmean",
+          "impact": 1.8446
+        },
+        {
+          "feature": "sensor_12",
+          "impact": 1.372
+        },
+        {
+          "feature": "sensor_2_rollmean",
+          "impact": 1.3087
+        },
+        {
+          "feature": "sensor_7_rollmean",
+          "impact": 1.0468
+        }
+      ]
+    },
+    {
+      "unit_id": 22,
+      "top_factors": [
+        {
+          "feature": "sensor_11_rollmean",
+          "impact": 1.6094
+        },
+        {
+          "feature": "sensor_2_rollmean",
+          "impact": 1.4556
+        },
+        {
+          "feature": "sensor_5_rollmean",
+          "impact": 0.9904
+        },
+        {
+          "feature": "sensor_10_rollmean",
+          "impact": -0.9254
+        },
+        {
+          "feature": "sensor_12_rollmean",
+          "impact": 0.7801
+        }
+      ]
+    },
+    {
+      "unit_id": 5,
+      "top_factors": [
+        {
+          "feature": "sensor_11_rollmean",
+          "impact": 1.4517
+        },
+        {
+          "feature": "sensor_3_rollmean",
+          "impact": 0.8097
+        },
+        {
+          "feature": "sensor_12_rollmean",
+          "impact": 0.7629
+        },
+        {
+          "feature": "sensor_3",
+          "impact": 0.7263
+        },
+        {
+          "feature": "sensor_20_rollmean",
+          "impact": 0.6796
+        }
+      ]
+    },
+    {
+      "unit_id": 51,
+      "top_factors": [
+        {
+          "feature": "sensor_11_rollmean",
+          "impact": 2.7333
+        },
+        {
+          "feature": "sensor_12_rollmean",
+          "impact": 1.3176
+        },
+        {
+          "feature": "sensor_7_rollmean",
+          "impact": 1.1486
+        },
+        {
+          "feature": "sensor_5_rollmean",
+          "impact": -1.0382
+        },
+        {
+          "feature": "sensor_12",
+          "impact": 0.9322
+        }
+      ]
+    }
+  ]
+}
