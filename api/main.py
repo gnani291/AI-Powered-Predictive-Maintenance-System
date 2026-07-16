@@ -1,17 +1,4 @@
-"""
-api/main.py
------------
-FastAPI service exposing the trained predictive-maintenance models.
-Run with: uvicorn api.main:app --reload
 
-POST /predict expects a single cycle's raw sensor + operating-setting
-reading (plus enough recent history to compute rolling features -- see
-the request schema) and returns RUL, failure probability, and anomaly flag.
-
-This is optional infrastructure: the shipped dashboard works from
-precomputed predictions with zero backend. Stand this up if you want a
-"live inference" demo instead of / in addition to the static dashboard.
-"""
 
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
