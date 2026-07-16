@@ -1,15 +1,3 @@
-"""
-preprocessing.py
------------------
-- Cleans missing sensor values (forward-fill per engine, then median fallback)
-- Labels each row with RUL (Remaining Useful Life), using the standard
-  piecewise-linear cap (RUL clipped at 125 cycles) that the CMAPSS literature
-  uses -- early-life RUL is not learnable/meaningful, so capping stabilizes
-  training.
-- Engineers rolling window features (mean, std, slope) per sensor per engine
-  to capture degradation trends, not just instantaneous readings.
-- Scales features per-column with StandardScaler (fit on train split only).
-"""
 
 import numpy as np
 import pandas as pd
