@@ -1,10 +1,3 @@
-"""
-explainability.py
-------------------
-Computes SHAP feature importances for the trained RUL regressor and failure
-classifier so predictions aren't a black box -- for a sample of test-set
-engines, exports which sensors are driving each prediction.
-"""
 
 import json
 import numpy as np
