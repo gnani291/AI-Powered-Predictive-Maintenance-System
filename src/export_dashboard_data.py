@@ -1,13 +1,3 @@
-"""
-export_dashboard_data.py
--------------------------
-Rebuilds outputs/dashboard_data.json from the latest predictions/metrics/
-explainability exports, then re-embeds it into dashboard/index.html so the
-dashboard stays a single self-contained file (no fetch, no backend).
-
-Run this after any retrain (src/train_models.py + src/explainability.py)
-to refresh what the dashboard shows.
-"""
 
 import json
 from pathlib import Path
