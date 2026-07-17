@@ -1,22 +1,5 @@
 """
 generate_data.py
------------------
-Generates synthetic multivariate sensor degradation data structured exactly
-like NASA's CMAPSS Turbofan Engine Degradation dataset (21 sensors, 3
-operating settings, multiple engine units run-to-failure).
-
-WHY SYNTHETIC: this sandbox has no network access to NASA's data portal or
-Kaggle. The generator below encodes the same physics-flavored assumptions
-CMAPSS is famous for (gradual sensor drift + noise + accelerating decay near
-end-of-life), so every downstream script (feature engineering, RUL labeling,
-model training) works unmodified.
-
-TO USE REAL DATA: download CMAPSS (FD001.zip) from the NASA Prognostics
-Data Repository, drop train_FD001.txt into data/raw/, and point
-preprocessing.py at it instead -- the column layout matches what this
-script produces, so no other code changes are needed.
-"""
-
 import numpy as np
 import pandas as pd
 from pathlib import Path
