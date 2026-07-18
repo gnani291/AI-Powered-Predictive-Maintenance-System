@@ -21,7 +21,6 @@ SENSOR_STRENGTH = {s: RNG.uniform(8, 22) for s in DEGRADING_SENSORS}
 
 SENSOR_BASE = {s: RNG.uniform(280, 650) for s in range(1, N_SENSORS + 1)}
 
-
 def simulate_engine(unit_id: int) -> pd.DataFrame:
     life = int(RNG.integers(140, 360))  # total cycles until failure
     t = np.arange(1, life + 1)
