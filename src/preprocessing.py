@@ -12,7 +12,6 @@ DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 MODEL_DIR = Path(__file__).resolve().parents[1] / "models"
 MODEL_DIR.mkdir(exist_ok=True)
 
-
 def load_and_clean(path: Path) -> pd.DataFrame:
     df = pd.read_csv(path)
     sensor_cols = [c for c in df.columns if c.startswith("sensor_")]
