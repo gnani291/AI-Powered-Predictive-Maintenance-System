@@ -1,30 +1,3 @@
-"""
-train_models.py
-----------------
-Trains three model tracks on the processed CMAPSS-style data:
-
-1. Regression  -> Remaining Useful Life (RUL), compared across Linear
-   Regression, Random Forest, and XGBoost, scored with RMSE + NASA's
-   asymmetric scoring function (penalizes late/optimistic predictions
-   more heavily than early/conservative ones -- late predictions are the
-   ones that cause unplanned failures).
-2. Classification -> "failure imminent within 30 cycles" (binary),
-   compared across Logistic Regression, Random Forest, and XGBoost,
-   scored with PR-AUC/ROC-AUC (PR-AUC matters more since failures are rare).
-3. Anomaly detection -> Isolation Forest trained only on "healthy" cycles
-   (RUL > 60), flags sensor patterns that deviate from normal operation
-   even if not explicitly labeled as pre-failure.
-
-A cost-sensitive threshold sweep picks the classification decision
-threshold that minimizes total business cost (false negative = missed
-failure, false positive = unnecessary maintenance) instead of defaulting
-to 0.5.
-
-Outputs: trained models (models/), metrics (outputs/metrics.json), and a
-per-row prediction export (outputs/predictions.json) consumed by the
-dashboard.
-"""
-
 import json
 import numpy as np
 import pandas as pd
