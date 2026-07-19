@@ -18,7 +18,7 @@ def main():
     sample = test_df.sample(min(N_SAMPLE_ROWS, len(test_df)), random_state=42)
     X_sample = sample[feature_cols]
 
-    # --- Global feature importance for the classifier ---
+   
     clf = joblib.load(MODEL_DIR / "failure_classifier.pkl")
     if hasattr(clf, "get_booster") or hasattr(clf, "estimators_"):
         explainer_clf = shap.TreeExplainer(clf)
