@@ -8,8 +8,6 @@ N_SENSORS = 21
 SENSOR_NAMES = [f"sensor_{i+1}" for i in range(N_SENSORS)]
 SETTING_NAMES = ["op_setting_1", "op_setting_2", "op_setting_3"]
 
-# Which sensors actually degrade meaningfully (mirrors CMAPSS: several
-# sensors are flat/uninformative, which is itself a realistic modeling trap).
 DEGRADING_SENSORS = [2, 3, 4, 7, 8, 11, 12, 13, 15, 17, 20]
 
 # Each degrading sensor has a FIXED drift direction across the whole fleet
