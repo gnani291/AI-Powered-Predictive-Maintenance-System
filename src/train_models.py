@@ -18,9 +18,6 @@ MODEL_DIR = BASE / "models"
 OUT_DIR = BASE / "outputs"
 OUT_DIR.mkdir(exist_ok=True)
 
-# Business cost assumptions (illustrative, documented so they're easy to
-# defend/adjust in an interview): missing a real failure is far more
-# expensive than an unnecessary maintenance check.
 COST_FALSE_NEGATIVE = 50_000   # unplanned failure: downtime + damage + safety risk
 COST_FALSE_POSITIVE = 1_200    # unnecessary inspection/maintenance visit
 
