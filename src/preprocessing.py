@@ -55,7 +55,6 @@ def add_rolling_features(df: pd.DataFrame) -> pd.DataFrame:
     out = pd.concat([df, roll_mean, roll_std, roll_slope], axis=1)
     return out
 
-
 def build_feature_matrix(df: pd.DataFrame):
     sensor_cols = [c for c in df.columns if c.startswith("sensor_") and "_roll" not in c]
     setting_cols = [c for c in df.columns if c.startswith("op_setting")]
