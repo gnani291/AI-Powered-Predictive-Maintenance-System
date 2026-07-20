@@ -27,7 +27,6 @@ def add_rul_labels(df: pd.DataFrame) -> pd.DataFrame:
     df["failure_imminent"] = (raw_rul <= FAILURE_HORIZON).astype(int)
     return df
 
-
 def add_rolling_features(df: pd.DataFrame) -> pd.DataFrame:
     sensor_cols = [c for c in df.columns if c.startswith("sensor_")]
     df = df.sort_values(["unit_id", "cycle"]).reset_index(drop=True)
