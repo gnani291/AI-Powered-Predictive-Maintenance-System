@@ -59,6 +59,5 @@ def main():
     DASHBOARD_HTML.write_text(new_html)
     print(f"Refreshed dashboard with {len(payload['engines'])} engines' data.")
 
-
 if __name__ == "__main__":
     main()
