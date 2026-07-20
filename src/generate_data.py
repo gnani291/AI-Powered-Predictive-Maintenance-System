@@ -53,7 +53,6 @@ def simulate_engine(unit_id: int) -> pd.DataFrame:
 
     return df
 
-
 def main():
     out_dir = Path(__file__).resolve().parents[1] / "data"
     out_dir.mkdir(exist_ok=True)
