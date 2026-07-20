@@ -21,7 +21,6 @@ OUT_DIR.mkdir(exist_ok=True)
 COST_FALSE_NEGATIVE = 50_000   # unplanned failure: downtime + damage + safety risk
 COST_FALSE_POSITIVE = 1_200    # unnecessary inspection/maintenance visit
 
-
 def nasa_score(y_true, y_pred):
     """NASA CMAPSS asymmetric scoring function: penalizes late (optimistic)
     predictions ~10x more than early (conservative) ones."""
