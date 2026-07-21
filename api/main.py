@@ -28,11 +28,9 @@ class CycleWindow(BaseModel):
         description="Each dict must have keys: op_setting_1..3, sensor_1..21",
     )
 
-
 @app.get("/health")
 def health():
     return {"status": "ok"}
-
 
 @app.post("/predict")
 def predict(payload: CycleWindow):
