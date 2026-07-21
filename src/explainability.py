@@ -40,7 +40,7 @@ def main():
         order = np.argsort(fi)[::-1][:15]
         reg_importance = {feature_cols[i]: round(float(fi[i]), 4) for i in order}
 
-    # --- Per-engine explanation snapshot (most recent cycle per test engine) ---
+    
     latest = test_df.sort_values("cycle").groupby("unit_id").tail(1)
     latest_X = latest[feature_cols]
     per_engine = []
