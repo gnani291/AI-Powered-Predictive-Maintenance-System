@@ -18,7 +18,6 @@ _anomaly_model = joblib.load(MODEL_DIR / "anomaly_detector.pkl")
 
 ALERT_THRESHOLD = 0.10  # from the cost-sensitive sweep in train_models.py
 
-
 class CycleWindow(BaseModel):
     """A short history of recent cycles for one engine, most recent last.
     Needs >=1 row; rolling features are more accurate with >=10."""
