@@ -10,7 +10,7 @@ DATA_DIR = BASE / "data"
 MODEL_DIR = BASE / "models"
 OUT_DIR = BASE / "outputs"
 
-N_SAMPLE_ROWS = 300  # SHAP on tree models is fast, but keep this bounded
+N_SAMPLE_ROWS = 300  
 
 def main():
     feature_cols = joblib.load(MODEL_DIR / "feature_cols.pkl")
