@@ -22,8 +22,6 @@ COST_FALSE_NEGATIVE = 50_000   # unplanned failure: downtime + damage + safety r
 COST_FALSE_POSITIVE = 1_200    # unnecessary inspection/maintenance visit
 
 def nasa_score(y_true, y_pred):
-    """NASA CMAPSS asymmetric scoring function: penalizes late (optimistic)
-    predictions ~10x more than early (conservative) ones."""
     d = y_pred - y_true
     s = np.where(d < 0, np.exp(-d / 13) - 1, np.exp(d / 10) - 1)
     return float(np.sum(s))
