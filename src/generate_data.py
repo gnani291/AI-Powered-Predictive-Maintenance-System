@@ -34,7 +34,7 @@ def simulate_engine(unit_id: int) -> pd.DataFrame:
             # per-engine variation in HOW FAST it degrades, but direction
             # and rough magnitude are consistent fleet-wide (learnable signal)
             drift_strength = SENSOR_STRENGTH[sensor_id] * RNG.uniform(0.75, 1.25)
-            # accelerating (convex) degradation curve, steeper near end-of-life
+           
             curve = drift_strength * (frac_life ** 2.2)
             direction = SENSOR_DIRECTION[sensor_id]
             sensors[:, s] = base + direction * curve + noise * (base * 0.0025)
