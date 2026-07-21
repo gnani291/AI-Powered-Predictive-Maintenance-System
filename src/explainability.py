@@ -32,7 +32,7 @@ def main():
         order = np.argsort(mean_abs)[::-1][:15]
         global_importance = {feature_cols[i]: round(float(mean_abs[i]), 4) for i in order}
 
-    # --- Global feature importance for the regressor ---
+   
     reg = joblib.load(MODEL_DIR / "rul_regressor.pkl")
     reg_importance = {}
     if hasattr(reg, "feature_importances_"):
