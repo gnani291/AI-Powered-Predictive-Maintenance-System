@@ -95,6 +95,5 @@ def run_pipeline():
     print(f"Failure-imminent rate (train): {train_df['failure_imminent'].mean():.3f}")
     return train_df, test_df, feature_cols
 
-
 if __name__ == "__main__":
     run_pipeline()
