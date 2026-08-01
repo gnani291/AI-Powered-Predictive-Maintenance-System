@@ -8,6 +8,7 @@ RUL_CAP = 125
 ROLLING_WINDOW = 10
 FAILURE_HORIZON = 30  # cycles-to-failure threshold for the classification task
 
+
 DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 MODEL_DIR = Path(__file__).resolve().parents[1] / "models"
 MODEL_DIR.mkdir(exist_ok=True)
