@@ -5,6 +5,7 @@ import numpy as np
 import pandas as pd
 import joblib
 
+
 BASE = Path(__file__).resolve().parents[1]
 MODEL_DIR = BASE / "models"
 
