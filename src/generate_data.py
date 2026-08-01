@@ -10,6 +10,7 @@ SETTING_NAMES = ["op_setting_1", "op_setting_2", "op_setting_3"]
 
 DEGRADING_SENSORS = [2, 3, 4, 7, 8, 11, 12, 13, 15, 17, 20]
 
+
 SENSOR_DIRECTION = {s: RNG.choice([-1, 1]) for s in DEGRADING_SENSORS}
 SENSOR_STRENGTH = {s: RNG.uniform(8, 22) for s in DEGRADING_SENSORS}
 
