@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 import joblib
-
 from sklearn.linear_model import LinearRegression, LogisticRegression
 from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier, IsolationForest
 from sklearn.metrics import (
