@@ -6,6 +6,7 @@ BASE = Path(__file__).resolve().parents[1]
 OUT_DIR = BASE / "outputs"
 DASHBOARD_HTML = BASE / "dashboard" / "index.html"
 
+
 DATA_MARKER_START = "window.__DASHBOARD_DATA__ = "
 DATA_MARKER_END = ";</script>"
 
