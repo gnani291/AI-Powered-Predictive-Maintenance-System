@@ -25,6 +25,7 @@ def nasa_score(y_true, y_pred):
     s = np.where(d < 0, np.exp(-d / 13) - 1, np.exp(d / 10) - 1)
     return float(np.sum(s))
 
+
 def train_regression(X_train, y_train, X_test, y_test):
     models = {
         "LinearRegression": LinearRegression(),
