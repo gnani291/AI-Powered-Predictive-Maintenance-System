@@ -4,7 +4,6 @@ from pathlib import Path
 from sklearn.preprocessing import StandardScaler
 import joblib
 
-
 RUL_CAP = 125
 ROLLING_WINDOW = 10
 FAILURE_HORIZON = 30  # cycles-to-failure threshold for the classification task
