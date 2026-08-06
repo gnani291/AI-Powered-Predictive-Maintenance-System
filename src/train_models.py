@@ -48,7 +48,6 @@ def train_regression(X_train, y_train, X_test, y_test):
     print(f"-> best regressor: {best_name}")
     return results, preds[best_name], best_name
 
-
 def train_classification(X_train, y_train, X_test, y_test):
     models = {
         "LogisticRegression": LogisticRegression(max_iter=2000, class_weight="balanced"),
