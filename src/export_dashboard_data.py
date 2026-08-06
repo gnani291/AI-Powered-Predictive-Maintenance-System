@@ -42,7 +42,6 @@ def build_payload():
         "top_drivers": top_drivers,
     }
 
-
 def main():
     payload = build_payload()
     with open(OUT_DIR / "dashboard_data.json", "w") as f:
