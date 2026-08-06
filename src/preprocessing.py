@@ -19,7 +19,6 @@ def load_and_clean(path: Path) -> pd.DataFrame:
     df[sensor_cols] = df[sensor_cols].fillna(df[sensor_cols].median())
     return df
 
-
 def add_rul_labels(df: pd.DataFrame) -> pd.DataFrame:
     max_cycle = df.groupby("unit_id")["cycle"].transform("max")
     raw_rul = max_cycle - df["cycle"]
