@@ -2,7 +2,6 @@ import json
 from pathlib import Path
 import pandas as pd
 
-
 BASE = Path(__file__).resolve().parents[1]
 OUT_DIR = BASE / "outputs"
 DASHBOARD_HTML = BASE / "dashboard" / "index.html"
