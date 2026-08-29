@@ -12,7 +12,6 @@ OUT_DIR = BASE / "outputs"
 
 N_SAMPLE_ROWS = 300  
 
-
 def main():
     feature_cols = joblib.load(MODEL_DIR / "feature_cols.pkl")
     test_df = pd.read_parquet(DATA_DIR / "test_processed.parquet")
