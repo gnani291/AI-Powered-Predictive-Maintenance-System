@@ -9,7 +9,6 @@ BASE = Path(__file__).resolve().parents[1]
 DATA_DIR = BASE / "data"
 MODEL_DIR = BASE / "models"
 OUT_DIR = BASE / "outputs"
-
 N_SAMPLE_ROWS = 300  
 
 def main():
