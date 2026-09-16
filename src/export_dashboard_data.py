@@ -9,6 +9,7 @@ DASHBOARD_HTML = BASE / "dashboard" / "index.html"
 DATA_MARKER_START = "window.__DASHBOARD_DATA__ = "
 DATA_MARKER_END = ";</script>"
 
+
 def build_payload():
     preds = pd.DataFrame(json.load(open(OUT_DIR / "predictions.json")))
     metrics = json.load(open(OUT_DIR / "metrics.json"))
