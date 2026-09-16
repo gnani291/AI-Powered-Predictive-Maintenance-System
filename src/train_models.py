@@ -11,6 +11,7 @@ from sklearn.metrics import (
 )
 from xgboost import XGBRegressor, XGBClassifier
 
+
 BASE = Path(__file__).resolve().parents[1]
 DATA_DIR = BASE / "data"
 MODEL_DIR = BASE / "models"
